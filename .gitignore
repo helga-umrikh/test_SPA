@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .prettierrc.json
+launch.json
 
 # testing
 /coverage
