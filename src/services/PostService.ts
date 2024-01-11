@@ -10,7 +10,7 @@ export const postAPI = createApi({
         fetchAllPosts: build.query<IPost[], number>({
             query: (limit: number = 5) => ({
               url: '/posts',
-              perams: {
+              params: {
                 _limit: limit
               }
             })
