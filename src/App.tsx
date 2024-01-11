@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.scss'
-import PostContainer from './components/PostContainer'
+import HomePage from './pages/HomePage/HomePage'
 
 function App() {
     return <div className="App">
-        <PostContainer/>
+        <HomePage />
     </div>
 }
 
-export default App
+export default App;

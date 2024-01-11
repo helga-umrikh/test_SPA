@@ -13,4 +13,5 @@ const PostContainer = () => {
   )
 }
 
-export default PostContainer
+export default PostContainer;
+export {}
