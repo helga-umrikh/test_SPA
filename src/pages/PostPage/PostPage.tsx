@@ -1,12 +1,15 @@
 import React from 'react'
-import PostDetails from '../../components/PostDetails';
+import { useParams } from 'react-router-dom'
+import PostDetails from '../../components/PostDetails'
 
 const PostPage = () => {
-  return (
-    <div className='container'>
-      <PostDetails postId={5} />
-    </div>
-  )
+    const { id } = useParams<{ id?: string }>()
+
+    return (
+        <div className="container">
+            {id && <PostDetails postId={parseInt(id)} />}
+        </div>
+    )
 }
 
 export default PostPage
