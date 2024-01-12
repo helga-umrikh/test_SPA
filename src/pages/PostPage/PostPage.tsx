@@ -1,8 +1,11 @@
 import React from 'react'
+import PostDetails from '../../components/PostDetails';
 
 const PostPage = () => {
   return (
-    <div>PostPage</div>
+    <div className='container'>
+      <PostDetails postId={5} />
+    </div>
   )
 }
 

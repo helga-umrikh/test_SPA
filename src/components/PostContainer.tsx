@@ -12,8 +12,8 @@ const PostContainer = () => {
 
     return (
         <div className="post__list">
-            {isLoading && <h1>Posts are loading...</h1>}
-            {error && <h1>Error</h1>}
+            {isLoading && <h1 className='loading'>Posts are loading...</h1>}
+            {error && <h1 className='error'>Error</h1>}
             {posts &&
                 posts.map((post) => <PostItem key={post.id} post={post} />)}
         </div>

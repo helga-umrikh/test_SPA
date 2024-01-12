@@ -1,0 +1,31 @@
+@import '../Scss/variables.scss';
+
+.post {
+    &__details {
+        display: flex;
+        width: 100%;
+        margin: 0 0 5em 0;
+
+        border: 1px $brown solid;
+        border-radius: 10px;
+    }
+
+    &__photo {
+        padding: 3em;
+    }
+
+    &__icon {
+        width: 100%;
+    }
+
+    &__description {
+        & p {
+            padding: 2em 2em;
+            font-family: $font-family-base;
+        }
+    }
+
+    &__back-button {
+      margin: 0 0 0 3em;
+    }
+}

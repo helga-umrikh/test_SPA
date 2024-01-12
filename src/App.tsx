@@ -10,6 +10,7 @@ function App() {
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='/post/:id' element={<PostPage />} />
+                {/* <Route path='*' element='not found'></Route> */}
             </Routes>
         </div>
     )
