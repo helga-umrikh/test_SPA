@@ -13,8 +13,13 @@ const PostItem: FC<PostItemProps> = ({ post }) => {
             <div className="post__info">
                 <div className="post__id">{post.id}</div>
                 <h3 className="post__title">{post.title}</h3>
+                <p className="post__body">
+                    {post.body.length > 20
+                        ? post.body.substring(0, 50) + '...'
+                        : post.body}
+                </p>
             </div>
-            <Button id={post.id}/>
+            <Button id={post.id} />
         </div>
     )
 }
