@@ -1,6 +1,6 @@
 # Getting Started with the APP
 
-##Deploy
+## Deploy
 
 [Link_to_deploy](https://hilarious-custard-78adc3.netlify.app/)
 
