@@ -1,6 +1,6 @@
 # Getting Started with the APP
 
-##Test_SPA
+## Test_SPA
 
 This document will provide you with an overview of the app and guide you through the process of setting it up and starting it.
 
